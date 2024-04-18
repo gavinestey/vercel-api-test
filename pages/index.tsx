@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <h1 className="text-3xl">Test</h1>
-      <form action="/api/form/save" method="get">
+      <form action="/api/form" method="get">
         <div>
           Field 1: <input type="text" name="field1" />
         </div>
